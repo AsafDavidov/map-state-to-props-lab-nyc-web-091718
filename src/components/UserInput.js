@@ -3,11 +3,6 @@ import { connect } from 'react-redux'
 
 class UserInput extends Component {
 
-  state = {
-    username: '',
-    hometown: ''
-  }
-
   handleInputChange = (event) => {
     this.setState({
       [event.target.id]: event.target.value
